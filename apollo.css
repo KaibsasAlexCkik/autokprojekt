@@ -1,0 +1,75 @@
+p,h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    position: relative;
+    animation-duration: 1s;
+    animation: h1a 0.5s ease-in-out alternate;
+    animation-direction: reverse;
+}
+@keyframes h1a {
+    0% { transform: translateY(0);opacity: 1;}
+    100% { transform: translateY(100%);opacity: 0;}
+}
+body{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    animation-name: hajak;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+.vtk{
+    color: cyan;
+}
+h1{
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: white 0px 0px 10px;
+    background: linear-gradient(to right, rgb(255, 0, 191), rgb(0, 174, 255));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+img{
+    width: 65%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 40px;
+    box-shadow: white 0px 0px 10px;
+}
+@keyframes animacio {
+    from {
+      width: 1680px;
+      height: 1050px;
+         }
+    to {      
+      width: 840px;
+      height: 525px;
+       }
+ }
+ 
+ #keep{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ #keep{
+   animation: animacio 5s linear 0s infinite alternate;
+ }
+ button{
+    background-color: black;
+    border-radius: 60px;
+    border: 3px solid white;
+    color: white;
+    width: 100px;
+    height: 50px;
+}
+button:hover{
+    border: 3px solid cyan;
+}
+ 
+    
